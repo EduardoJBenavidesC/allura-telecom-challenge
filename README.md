@@ -27,7 +27,7 @@ Ecosistema Digital B2B: Optimización de ROAS y Eficiencia de Ventas.
    Seaborn: Visualización estadística avanzada para mapas de calor y densidades KDE.
 
 5. Metodología Analítica (Pipeline de Trabajo).
-6. 
+   
    El notebook sigue una línea analítica rigurosa dividida en:
 
    Ingesta Progresiva: Carga y json_normalize de estructuras complejas con separadores de jerarquía (_).
@@ -37,13 +37,13 @@ Ecosistema Digital B2B: Optimización de ROAS y Eficiencia de Ventas.
    Análisis de Propensión (EDA): Evaluación bivariada y de densidad para identificar umbrales críticos de fuga.
    Determinación de Drivers: Cálculo de correlación de Pearson para aislar variables de riesgo y retención.
 
-7. Hallazgos Estratégicos para la Toma de Decisiones.
+6. Hallazgos Estratégicos para la Toma de Decisiones.
    
   Segmento de Riesgo Crítico: El contrato mes a mes (account_Contract_Month-to-month) es el principal predictor de fuga.
   Impacto de Servicios: La fibra óptica, a pesar de su alto valor, presenta correlación positiva con el abandono si no está asociada a contratos de l/p.
   Palancas de Retención: Los contratos de 1 y 2 años actúan como estabilizadores del ecosistema, reduciendo drásticamente la tasa de Churn.
 
-6. Soluciones y Escalabilidad.
+7. Soluciones y Escalabilidad.
    
   Blindaje Técnico: Protocolo de certificación del Target que valida la pureza de los datos antes del modelado.
   Integración CRM: Nomenclatura estandarizada por prefijos para una sincronización fluida con sistemas de ventas y CRM.
